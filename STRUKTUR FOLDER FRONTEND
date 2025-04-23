@@ -1,0 +1,11 @@
+/frontend
+│
+├── /src
+│   ├── /pages           # Halaman React
+│   ├── /components      # Navbar, CardJob, dll
+│   ├── /services        # fetch API backend
+│   ├── /context         # state management (AuthContext)
+│   └── /assets          # logo, CSS, dsb
+├── public
+├── tailwind.config.js
+└── package.json

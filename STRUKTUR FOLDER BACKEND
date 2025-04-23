@@ -1,0 +1,12 @@
+/backend
+│
+├── /src
+│   ├── /config          # konfigurasi database
+│   ├── /controllers     # logic tiap route
+│   ├── /middlewares     # auth JWT dll
+│   ├── /models          # Sequelize ORM
+│   ├── /routes          # semua endpoint API
+│   └── /utils           # helper functions
+├── app.js               # entry point
+├── .env                 # cred db, jwt secret
+└── package.json
